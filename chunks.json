@@ -1,0 +1,42 @@
+[
+    {
+        "chunk_id": 0,
+        "article_id": 0,
+        "text": "Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, interpret, and generate human language. Modern NLP combines linguistics, machine learning, and deep learning to perform tasks such as sentiment analysis, text summarization, question answering, and translation. A key concept in NLP is the representation of text. Traditional methods such as bag-of-words and TF-IDF rely on word counts but cannot capture the semantic meaning of sentences. M"
+    },
+    {
+        "chunk_id": 1,
+        "article_id": 0,
+        "text": " bag-of-words and TF-IDF rely on word counts but cannot capture the semantic meaning of sentences. Modern techniques use vector representations, also known as embeddings, to encode the meaning of words and sentences into numerical form. Embeddings map text into high-dimensional vectors where semantically similar words are positioned closer to each other. Popular embedding models include Word2Vec, GloVe, and transformer-based models such as BERT and Sentence Transformers. These embeddings enable "
+    },
+    {
+        "chunk_id": 2,
+        "article_id": 0,
+        "text": "GloVe, and transformer-based models such as BERT and Sentence Transformers. These embeddings enable downstream models to understand context and relationships in text. In RAG (Retrieval Augmented Generation) systems, embeddings play a crucial role in retrieving relevant information. The documents are chunked and converted into embeddings using a transformer model. When a user asks a question, the system converts the question into an embedding and retrieves the most relevant chunks using similarit"
+    },
+    {
+        "chunk_id": 3,
+        "article_id": 0,
+        "text": "ystem converts the question into an embedding and retrieves the most relevant chunks using similarity search in a vector database. By combining embeddings with large language models, RAG frameworks produce more accurate and context-aware responses. This approach reduces hallucination and ensures answers are grounded in factual data present in the knowledge base."
+    },
+    {
+        "chunk_id": 4,
+        "article_id": 1,
+        "text": "Machine learning is a subfield of artificial intelligence that focuses on building systems capable of learning from data. Instead of writing explicit rules for every task, machine learning models identify patterns in data and make predictions or decisions based on those patterns. Machine learning is widely used in applications such as recommendation systems, fraud detection, medical diagnosis, and speech recognition. There are three main types of machine learning: supervised learning, unsupervis"
+    },
+    {
+        "chunk_id": 5,
+        "article_id": 1,
+        "text": " speech recognition. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model learns from labeled examples to predict outputs for unseen data. Common algorithms include linear regression, decision trees, random forests, and support vector machines. Unsupervised learning involves discovering hidden patterns or structures in data without labeled outputs. Techniques such as clustering and dimensionality"
+    },
+    {
+        "chunk_id": 6,
+        "article_id": 1,
+        "text": "erns or structures in data without labeled outputs. Techniques such as clustering and dimensionality reduction help group similar data points or simplify high-dimensional datasets. Reinforcement learning focuses on training agents to take actions in an environment to maximize cumulative rewards. This approach is widely used in robotics, gaming, and control systems. Machine learning models improve their performance through training, evaluation, and tuning. The quality of input data strongly affec"
+    },
+    {
+        "chunk_id": 7,
+        "article_id": 1,
+        "text": "their performance through training, evaluation, and tuning. The quality of input data strongly affects the final model accuracy, making data preprocessing and feature engineering essential steps. As ML continues to evolve, more advanced techniques such as deep learning and transfer learning are becoming dominant approaches for complex tasks."
+    }
+]
