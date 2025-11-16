@@ -1,0 +1,9 @@
+Natural Language Processing (NLP) is a field of artificial intelligence that enables computers to understand, interpret, and generate human language. Modern NLP combines linguistics, machine learning, and deep learning to perform tasks such as sentiment analysis, text summarization, question answering, and translation.
+
+A key concept in NLP is the representation of text. Traditional methods such as bag-of-words and TF-IDF rely on word counts but cannot capture the semantic meaning of sentences. Modern techniques use vector representations, also known as embeddings, to encode the meaning of words and sentences into numerical form.
+
+Embeddings map text into high-dimensional vectors where semantically similar words are positioned closer to each other. Popular embedding models include Word2Vec, GloVe, and transformer-based models such as BERT and Sentence Transformers. These embeddings enable downstream models to understand context and relationships in text.
+
+In RAG (Retrieval Augmented Generation) systems, embeddings play a crucial role in retrieving relevant information. The documents are chunked and converted into embeddings using a transformer model. When a user asks a question, the system converts the question into an embedding and retrieves the most relevant chunks using similarity search in a vector database.
+
+By combining embeddings with large language models, RAG frameworks produce more accurate and context-aware responses. This approach reduces hallucination and ensures answers are grounded in factual data present in the knowledge base.

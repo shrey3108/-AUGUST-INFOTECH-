@@ -1,0 +1,9 @@
+Machine learning is a subfield of artificial intelligence that focuses on building systems capable of learning from data. Instead of writing explicit rules for every task, machine learning models identify patterns in data and make predictions or decisions based on those patterns. Machine learning is widely used in applications such as recommendation systems, fraud detection, medical diagnosis, and speech recognition.
+
+There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. In supervised learning, the model learns from labeled examples to predict outputs for unseen data. Common algorithms include linear regression, decision trees, random forests, and support vector machines.
+
+Unsupervised learning involves discovering hidden patterns or structures in data without labeled outputs. Techniques such as clustering and dimensionality reduction help group similar data points or simplify high-dimensional datasets.
+
+Reinforcement learning focuses on training agents to take actions in an environment to maximize cumulative rewards. This approach is widely used in robotics, gaming, and control systems.
+
+Machine learning models improve their performance through training, evaluation, and tuning. The quality of input data strongly affects the final model accuracy, making data preprocessing and feature engineering essential steps. As ML continues to evolve, more advanced techniques such as deep learning and transfer learning are becoming dominant approaches for complex tasks.
