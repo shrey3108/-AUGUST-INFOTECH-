@@ -40,7 +40,7 @@ index.add(embeddings_norm)
 # -----------------------------
 # Load embedding model
 # -----------------------------
-embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2", device="cpu")
 
 # -----------------------------
 # Load HF Chat Model
@@ -117,3 +117,4 @@ if query:
     st.write("---")
     st.write("### 📄 Retrieved Chunks (Context Used):")
     st.json(retrieved)
+
